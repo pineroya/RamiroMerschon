@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lora';
+    background: url("../img/reservachancani.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Raleway';
+  }
+  
+  p {
+    line-height: 1.75;
+  }
+  
+  .text-faded {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  #mainNav {
+    background-color: rgba(14, 26, 55, 0.82);
+    font-family: 'Raleway';
+  }
+  
+  #mainNav .navbar-brand {
+    color: #ffffff;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+  }
+  
+  #mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+      font-size: 0.9rem;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: rgba(255, 255, 255, 0.4);
+      text-decoration: underline;
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+
+  .custom-header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo transparente y oscuro */
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Espaciado interno para el contenido */
+    color: white; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente reducido */
+    border-radius: 10px; /* Redondear los bordes */
+    width: 100%; /* Ocupar todo el ancho disponible */
+    top: 0; /* Pegar al borde superior de la página */
+}
+
+.custom-footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo transparente y oscuro */
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Espaciado interno para el contenido */
+    color: white; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente reducido */
+    border-radius: 10px; /* Redondear los bordes */
+    position: absolute; /* Colocar el pie de página al pie de la página */
+    width: 100%; /* Ocupar todo el ancho disponible */
+    bottom: 0; /* Pegar al borde inferior de la página */
+    margin-top: 20px; /* Agregar un margen superior para separarlo del contenido anterior */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!-- Styles -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+</head>
+<body>
+    <header class="custom-header">
+        <h1>
+            <span>Aprendiendo sobre los habitantes de Córdoba</span>
+        </h1>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1>Mi página personalizada</h1>
+            <p>Este es el contenido de mi página.</p>
+        </div>
+    </main>
+
+    <footer class="custom-footer">
+        <a href="{% url 'about' %}">Acerca de Mí.</a>
+    </footer>
+</body>
+</html>
